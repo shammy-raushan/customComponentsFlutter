@@ -1,0 +1,22 @@
+@import './../styles/variables.scss';
+
+.footer {
+    padding: 12px 8px;
+    background: $footerBg;
+    color: $light;
+
+    // &__conatiner {
+    //     display: flex;
+    //     align-items: center;
+    //     text-align: center;
+    //     background: pink;
+
+    &__title {
+        color: $dark;
+
+        font-weight: bold;
+        // color: aqua;
+    }
+
+    // }
+}
