@@ -1,7 +1,9 @@
+
+
 import React from "react";
 
 const Java = () => {
-    return <h1>JavaXXXXXXXXXX</h1>;
+    return <h1>Java</h1>;
 };
 
 export default Java;

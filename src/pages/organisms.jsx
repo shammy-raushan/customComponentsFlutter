@@ -1,13 +1,8 @@
-import React from 'react'
 
-const Organisms = () => {
-    return (
-        <React.Fragment>
-            <section>
-                <div className="centered text-4xl h-screen">This is Organisms Page</div>
-            </section>
-        </React.Fragment>
-    )
-}
+import React from "react";
 
-export default Organisms;
+const Chip = () => {
+    return <h1>Chip</h1>;
+};
+
+export default Chip;

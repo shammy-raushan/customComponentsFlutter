@@ -7,10 +7,10 @@ import About from "./pages/about";
 import ForDesigners from "./pages/designers";
 import ForDevelopers from "./pages/developers";
 import Sidebar from "./components/Sidebar";
-import Atoms from "./pages/atoms";
-import Molecules from "./pages/molecules";
-import Organisms from "./pages/organisms";
-import Templates from "./pages/templates";
+import Accordion from "./pages/atoms";
+import Appbar from "./pages/molecules";
+import Chip from "./pages/organisms";
+import Card from "./pages/templates";
 
 function App() {
   return (
@@ -31,10 +31,10 @@ function App() {
 
           <Route path="/for-developers" element={<ForDevelopers />} />
           {/* sidebar routes */}
-          <Route path="/atoms" element={<Atoms />} />
-          <Route path="/molecules" element={<Molecules />} />
-          <Route path="/organisms" element={<Organisms />} />
-          <Route path="/templates" element={<Templates />} />
+          <Route path="/accordion" element={<Accordion />} />
+          <Route path="/appbar" element={<Appbar />} />
+          <Route path="/chip" element={<Chip />} />
+          <Route path="/card" element={<Card />} />
 
 
 

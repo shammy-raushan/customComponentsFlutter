@@ -1,10 +1,9 @@
 import * as React from 'react';
 
 
-export default function Components() {
-    return (
-        <h1>Components</h1>
 
+const Components = () => {
+    return <h1>Components</h1>;
+};
 
-    );
-}
+export default Components;

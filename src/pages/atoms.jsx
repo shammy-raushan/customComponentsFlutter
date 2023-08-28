@@ -1,13 +1,9 @@
-import React from 'react'
+import * as React from 'react';
 
-const Atoms = () => {
-    return (
-        <React.Fragment>
-            <section>
-                <div className="centered text-4xl h-screen">This is Atoms Page</div>
-            </section>
-        </React.Fragment>
-    )
-}
 
-export default Atoms;
+
+const Accordion = () => {
+    return <h1>This is accordion Page</h1>;
+};
+
+export default Accordion;
